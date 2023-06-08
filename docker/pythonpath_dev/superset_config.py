@@ -99,7 +99,21 @@ class CeleryConfig:
 
 CELERY_CONFIG = CeleryConfig
 
-FEATURE_FLAGS = {"ALERT_REPORTS": True}
+FEATURE_FLAGS = {
+    "ENABLE_TEMPLATE_PROCESSING": True,
+    "EMBEDDED_SUPERSET": True,
+    "DASHBOARD_CROSS_FILTERS": True,
+    "EMBEDDABLE_CHARTS": True,	
+    "DRILL_TO_DETAIL": True,	
+    "DATAPANEL_CLOSED_BY_DEFAULT": False,	
+    "HORIZONTAL_FILTER_BAR": True,
+    "ALERT_REPORTS": True
+}
+
+ENABLE_PROXY_FIX = True
+SESSION_COOKIE_SAMESITE = "Lax"
+
+
 ALERT_REPORTS_NOTIFICATION_DRY_RUN = True
 WEBDRIVER_BASEURL = "http://superset:8088/"
 # The base URL for the email report hyperlinks.
