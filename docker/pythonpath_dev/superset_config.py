@@ -82,8 +82,8 @@ DATA_CACHE_CONFIG = CACHE_CONFIG
 APP_NAME = "DigiLogic Cyber-Intelligence"
 
 # Specify the App icon
-APP_ICON = "https://depontecoza-my.sharepoint.com/personal/shaun_deponte_co_za/Documents/online-images/superset-logo-horiz.png"
-FAVICONS = [{"href": "https://depontecoza-my.sharepoint.com/personal/shaun_deponte_co_za/Documents/online-images/favicon.png"}]
+APP_ICON = "https://raw.githubusercontent.com/DigiLogic-cloud/images/main/superset-logo-horiz.png"
+FAVICONS = [{"href": "https://raw.githubusercontent.com/DigiLogic-cloud/images/main/favicon.png"}]
 
 
 
