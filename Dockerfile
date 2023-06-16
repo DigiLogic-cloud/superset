@@ -91,6 +91,9 @@ RUN chown -R superset:superset ./* \
     && flask fab babel-compile --target superset/translations
 
 COPY ./docker/run-server.sh /usr/bin/
+COPY /home/digilogic/images/favicon.png /app/superset/static/assets/images/favicon.png
+COPY /home/digilogic/images/loading.gif /app/superset/static/assets/images/loading.gif
+COPY /home/digilogic/images/superset-logo-horiz.png /app/superset/static/assets/images/superset-logo-horiz.png
 RUN chmod a+x /usr/bin/run-server.sh
 
 USER superset
