@@ -79,6 +79,14 @@ CACHE_CONFIG = {
 DATA_CACHE_CONFIG = CACHE_CONFIG
 
 
+APP_NAME = "DigiLogic Cyber-Intelligence"
+
+# Specify the App icon
+APP_ICON = "https://depontecoza-my.sharepoint.com/personal/shaun_deponte_co_za/Documents/online-images/superset-logo-horiz.png"
+FAVICONS = [{"href": "https://depontecoza-my.sharepoint.com/personal/shaun_deponte_co_za/Documents/online-images/favicon.png"}]
+
+
+
 class CeleryConfig:
     broker_url = f"redis://{REDIS_HOST}:{REDIS_PORT}/{REDIS_CELERY_DB}"
     imports = ("superset.sql_lab",)
