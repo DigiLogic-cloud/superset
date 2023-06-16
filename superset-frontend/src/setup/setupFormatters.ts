@@ -24,9 +24,9 @@ import {
   getTimeFormatterRegistry,
   smartDateFormatter,
   smartDateVerboseFormatter,
+  createD3NumberFormatter,
 } from '@superset-ui/core';
 import { FormatLocaleDefinition } from 'd3-format';
-import { createD3NumberFormatter } from '@superset-ui/number-format';
 
 export default function setupFormatters(
   d3Format: Partial<FormatLocaleDefinition>,
