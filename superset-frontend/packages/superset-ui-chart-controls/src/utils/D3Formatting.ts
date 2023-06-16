@@ -56,6 +56,7 @@ export const D3_FORMAT_OPTIONS: [string, string][] = [
   ['~g', t('Original value')],
   ...d3Formatted,
   ['DURATION', t('Duration in ms (66000 => 1m 6s)')],
+  ['CURRENCY_INDIA', 'CURRENCY_INDIA'],
   ['DURATION_SUB', t('Duration in ms (1.40008 => 1ms 400µs 80ns)')],
 ];
 
